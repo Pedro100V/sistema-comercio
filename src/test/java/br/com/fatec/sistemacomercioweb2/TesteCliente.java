@@ -16,10 +16,10 @@ public class TesteCliente {
                     context.getBean(ClienteService.class);
             // TESTE 1 - CADASTRAR CLIENTE
             Cliente cliente = new Cliente(
-                    "Pedro ",
-                    "12345678901",
-                    "11999999999",
-                    "pedro@email.com"
+                    "Pedro Teste maven ",
+                    "33344466777",
+                    "11999394999",
+                    "pedromaven2@email.com"
             );
             Cliente clienteSalvo = service.cadastrar(cliente);
             System.out.println("Cliente cadastrado!" + clienteSalvo);
